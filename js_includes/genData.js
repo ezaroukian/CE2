@@ -1,4 +1,4 @@
-/var neg = "cannot";
+//var neg = "cannot";
 //var neg = "isnot";
 var neg = "diff";
 
