@@ -11,7 +11,7 @@ var P2nB2 = "the person P2 cannot read the book B2";
 var P2iP1 = "the person P2 is the person P1";
 var B2iB1 = "the book B2 is the book B1";
 var P2nP1 = "the person P2 cannot be the person P1";
-var B2nB1 = "the book B2 cannot be the book B2";
+var B2nB1 = "the book B2 cannot be the book B1";
 
 var parts = [P1B1,
 P1B2,
