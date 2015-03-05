@@ -199,6 +199,7 @@ function ibexItem(onto,CErule){
 	var quest = image+"<br>"+CErule.rule;
 	var ans = ["Yes","No"];	
 	var cor = 1;
+	alert(CErule.type.split("_")[0]);
 	/*switch(CErule.type.split("_")[0]){
 		case "11n13":
 			if (onto.type == "11" || onto.type == "31"){cor=0;}
