@@ -28,8 +28,8 @@ switch(neg){
 		B2nB1 = "the book B2 is not the book B1";
 		break;
 	case "diff":	
-		var P2nP1 = "there is a person named P2 that is different to the person P1";
-		var B2nB1 = "there is a book named B2 that is different to the book B1";
+		P2nP1 = "there is a person named P2 that is different to the person P1";
+		B2nB1 = "there is a book named B2 that is different to the book B1";
 		break;
 }
 
