@@ -6,14 +6,14 @@ var manualSendResults = false;
 //alert(wrapperShuffleSeq());
 //var shuffleSequence = seq(rshuffle("fe12_o_p_c-ce12_n_o_c", "fe12_o_p_c-ce12_n_o_d", "fe12_o_p_c-ce12_n_r_c", "fe12_o_p_c-ce12_n_r_d", "fe12_o_p_c-ce21_n_o_c", "fe12_o_p_c-ce21_n_o_d", "fe12_o_p_c-ce21_n_r_c", "fe12_o_p_c-ce21_n_r_d", "fe12_m_n_c-ce12_n_o_c", "fe12_m_n_c-ce12_n_o_d", "fe12_m_n_c-ce12_n_r_c", "fe12_m_n_c-ce12_n_r_d", "fe12_m_n_c-ce21_n_o_c", "fe12_m_n_c-ce21_n_o_d", "fe12_m_n_c-ce21_n_r_c", "fe12_m_n_c-ce21_n_r_d", "fe21_o_p_c-ce12_n_o_c", "fe21_o_p_c-ce12_n_o_d", "fe21_o_p_c-ce12_n_r_c", "fe21_o_p_c-ce12_n_r_d", "fe21_o_p_c-ce21_n_o_c", "fe21_o_p_c-ce21_n_o_d", "fe21_o_p_c-ce21_n_r_c", "fe21_o_p_c-ce21_n_r_d", "fe21_m_n_c-ce12_n_o_c", "fe21_m_n_c-ce12_n_o_d", "fe21_m_n_c-ce12_n_r_c", "fe21_m_n_c-ce12_n_r_d", "fe21_m_n_c-ce21_n_o_c", "fe21_m_n_c-ce21_n_o_d", "fe21_m_n_c-ce21_n_r_c", "fe21_m_n_c-ce21_n_r_d", "fe12_o_p_i-ce12_n_o_i", "fe12_o_p_i-ce12_n_r_i", "fe12_o_p_i-ce12_p_o_i", "fe12_o_p_i-ce12_p_r_i", "fe12_o_p_i-ce21_n_o_i", "fe12_o_p_i-ce21_n_r_i", "fe12_o_p_i-ce21_p_o_i", "fe12_o_p_i-ce21_p_r_i", "fe12_m_n_i-ce12_n_o_i", "fe12_m_n_i-ce12_n_r_i", "fe12_m_n_i-ce12_p_o_i", "fe12_m_n_i-ce12_p_r_i", "fe12_m_n_i-ce21_n_o_i", "fe12_m_n_i-ce21_n_r_i", "fe12_m_n_i-ce21_p_o_i", "fe12_m_n_i-ce21_p_r_i", "fe21_o_p_i-ce12_n_o_i", "fe21_o_p_i-ce12_n_r_i", "fe21_o_p_i-ce12_p_o_i", "fe21_o_p_i-ce12_p_r_i", "fe21_o_p_i-ce21_n_o_i", "fe21_o_p_i-ce21_n_r_i", "fe21_o_p_i-ce21_p_o_i", "fe21_o_p_i-ce21_p_r_i", "fe21_m_n_i-ce12_n_o_i", "fe21_m_n_i-ce12_n_r_i", "fe21_m_n_i-ce12_p_o_i", "fe21_m_n_i-ce12_p_r_i", "fe21_m_n_i-ce21_n_o_i", "fe21_m_n_i-ce21_n_r_i", "fe21_m_n_i-ce21_p_o_i", "fe21_m_n_i-ce21_p_r_i"));//seq("fe12_o_p_c-ce12_n_o_c");
 var shuffleSequence = seq(rshuffle(
-  "11-11n13_o_2B","13-11n13_o_2B","31-11n13_r_2B","33-11n13_r_2B",
+"11-11n13_o_2B","13-11n13_o_2B","31-11n13_r_2B","33-11n13_r_2B",
 "11-13n11_r_2B","13-13n11_r_2B","31-13n11_o_2B","33-13n11_o_2B",
 "11-31n11_o_2P","13-31n11_r_2P","31-31n11_r_2P","33-31n11_o_2P",
 "11-11n31_r_2P","13-11n31_o_2P","31-11n31_o_2P","33-11n31_r_2P",
-"11-1xn3x_u_2P2B","13-1xn3x_u_2P2B","31-1xn3x_u_2P2B","33-1xn3x_u_2P2B",
-"11-x1nx3_u_2B2P","13-x1nx3_u_2B2P","31-x1nx3_u_2B2P","33-x1nx3_u_2B2P",
-"11-x3nx1_o_2B2P","13-x3nx1_r_2B2P","31-x3nx1_o_2B2P","33-x3nx1_r_2B2P",
-"11-3xn1x_r_2P2B","13-3xn1x_o_2P2B","31-3xn1x_r_2P2B","33-3xn1x_o_2P2B"
+"11-1xn3x_u_2P2B","13-1xn3x_u_2P2B",
+"31-x1nx3_u_2B2P","33-x1nx3_u_2B2P",
+"11-x3nx1_o_2B2P","31-x3nx1_r_2B2P",
+"13-3xn1x_o_2P2B","33-3xn1x_r_2P2B"
 
   ));
 
