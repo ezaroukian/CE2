@@ -1,6 +1,6 @@
-//var neg = "cannot";
+var neg = "cannot";
 //var neg = "isnot";
-var neg = "diff";
+//var neg = "diff";
 
 var P1B1 = "the person P1 reads the book B1";
 var P1B2 = "the person P1 reads the book B2";
