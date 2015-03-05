@@ -47,7 +47,7 @@ var defaults = [
 ];
 
 var items = [
-  ["Form", {html: "intro.html"}]
+  ["Message", {html: "intro.html"}]
   ];
 items = items.concat(wrapper());
 
