@@ -1,17 +1,37 @@
-
+var neg = "cannot";
+//var neg = "isnot";
+//var neg = "diff";
 
 var P1B1 = "the person P1 reads the book B1";
 var P1B2 = "the person P1 reads the book B2";
 var P2B1 = "the person P2 reads the book B1";	
 var P2B2 = "the person P2 reads the book B2";
+var P2iP1 = "the person P2 is the person P1";
+var B2iB1 = "the book B2 is the book B1";
+
 var P1nB1 = "the person P1 cannot read the book B1";
 var P1nB2 = "the person P1 cannot read the book B2";	
 var P2nB1 = "the person P2 cannot read the book B1";	
 var P2nB2 = "the person P2 cannot read the book B2";
-var P2iP1 = "the person P2 is the person P1";
-var B2iB1 = "the book B2 is the book B1";
 var P2nP1 = "the person P2 cannot be the person P1";
 var B2nB1 = "the book B2 cannot be the book B1";
+
+switch(neg){
+	case "cannot":
+		break;
+	case "isnot":
+		P1nB1 = "the person P1 does not read the book B1";
+		P1nB2 = "the person P1 does not read the book B2";	
+		P2nB1 = "the person P2 does not read the book B1";	
+		P2nB2 = "the person P2 does not read the book B2";
+		P2nP1 = "the person P2 is not the person P1";
+		B2nB1 = "the book B2 is not the book B1";
+		break;
+	case "diff":	
+		var P2nP1 = "there is a person named P2 that is different to the person P1";
+		var B2nB1 = "there is a book named B2 that is different to the book B1";
+		break;
+}
 
 var parts = [P1B1,
 P1B2,
