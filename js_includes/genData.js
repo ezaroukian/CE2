@@ -215,6 +215,11 @@ function ibexItemsList(ontoList,CErulesList){
 	return output;
 }
 
+function wrapper(){
+	return ibexItemsList(ontoList,CErulesList);
+}
+
+
 //for testing in browser
 document.getElementById("test").innerHTML = "running...";  
 
