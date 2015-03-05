@@ -198,9 +198,36 @@ function ibexItem(onto,CErule){
 	var image = "<img src='"+onto.link+" width='480' height='360' >";//html containing ontograph link on google drive? test with http://tinyurl.com/ohleh6j
 	var quest = image+"<br>"+CErule.rule;
 	var ans = ["Yes","No"];	
+	var cor = 1;
+	switch(CErule.type){
+		case "11n13":
+			if (onto.type == "11" || onto.type == "31"){cor=0;}
+			break;
+		case "13n11":
+			if (onto.type == "13" || onto.type == "33"){cor=0;}
+			break;
+		case "31n11":
+			if (onto.type == "31" || onto.type == "33"){cor=0;}
+			break;
+		case "11n31":
+			if (onto.type == "11" || onto.type == "13"){cor=0;}
+			break;
+		case "1xn3x":
+			if (onto.type == "31"){cor=0;}
+			break;
+		case "x1nx3":
+			if (onto.type == "31"){cor=0;}
+			break;
+		case "x3nx1":
+			if (onto.type == "11" || onto.type == "13" || onnto.type == "33"){cor=0;}
+			break;
+		case "3xn1x":
+			if (onto.type == "11" || onto.type == "31" || onto.type == "33"){cor=0;}
+			break;
+	}
 	////testing
 	//alert(quest);
-	return [ [type, "Question", {"q": quest, "as": ans } ] ];
+	return [ [type, "Question", {"q": quest, "as": ans, "hasCorrect": cor } ] ];
 }
 
 function ibexItemsList(ontoList,CErulesList){
