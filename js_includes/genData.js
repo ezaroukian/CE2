@@ -196,7 +196,7 @@ var ontoList = [
 function ibexItem(onto,CErule){
 	var type = onto.type+"-"+CErule.type;//
 	var image = "<img src='"+onto.link+"'>";//html containing ontograph link on google drive? test with http://tinyurl.com/ohleh6j
-	var quest = image+"<br>"+CErule;
+	var quest = image+"<br>"+CErule.rule;
 	var ans = ["Yes","No"];	
 	////testing
 	//alert(quest);
