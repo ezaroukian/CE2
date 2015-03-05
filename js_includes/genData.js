@@ -214,7 +214,7 @@ function ibexItem(onto,CErule){
 			if (onto.type == "11" || onto.type == "13"){cor=0;}
 			break;
 		case "1xn3x":
-			if (onto.type == "31"){cor=0;}
+			if (onto.type == "13"){cor=0;}
 			break;
 		case "x1nx3":
 			if (onto.type == "31"){cor=0;}
