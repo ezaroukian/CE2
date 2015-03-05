@@ -204,7 +204,7 @@ function ibexItem(onto,CErule){
 		case "11n13":
 			if (onto.type == "11" || onto.type == "31"){cor=0;}
 			break;
-		/*case "13n11":
+		case "13n11":
 			if (onto.type == "13" || onto.type == "33"){cor=0;}
 			break;
 		case "31n11":
@@ -213,7 +213,7 @@ function ibexItem(onto,CErule){
 		case "11n31":
 			if (onto.type == "11" || onto.type == "13"){cor=0;}
 			break;
-		case "1xn3x":
+		/*case "1xn3x":
 			if (onto.type == "31"){cor=0;}
 			break;
 		case "x1nx3":
