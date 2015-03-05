@@ -199,8 +199,7 @@ function ibexItem(onto,CErule){
 	var quest = image+"<br>"+CErule.rule;
 	var ans = ["Yes","No"];	
 	var cor = 1;
-	switch(CErule.type.split("_")[0]){
-		alert(CErule.type.split("_")[0]);
+	/*switch(CErule.type.split("_")[0]){
 		case "11n13":
 			if (onto.type == "11" || onto.type == "31"){cor=0;}
 			break;
@@ -225,7 +224,7 @@ function ibexItem(onto,CErule){
 		case "3xn1x":
 			if (onto.type == "11" || onto.type == "31" || onto.type == "33"){cor=0;}
 			break;
-	}
+	}*/
 	////testing
 	//alert(quest);
 	return [ [type, "Question", {"q": quest, "as": ans, "hasCorrect": cor } ] ];
