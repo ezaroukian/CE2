@@ -213,18 +213,18 @@ function ibexItem(onto,CErule){
 		case "11n31":
 			if (onto.type == "11" || onto.type == "13"){cor=0;}
 			break;
-		/*case "1xn3x":
+		case "1xn3x":
 			if (onto.type == "31"){cor=0;}
 			break;
 		case "x1nx3":
 			if (onto.type == "31"){cor=0;}
 			break;
 		case "x3nx1":
-			if (onto.type == "11" || onto.type == "13" || onnto.type == "33"){cor=0;}
+			if (onto.type == "11" || onto.type == "13" || onto.type == "33"){cor=0;}
 			break;
 		case "3xn1x":
 			if (onto.type == "11" || onto.type == "31" || onto.type == "33"){cor=0;}
-			break;*/
+			break;
 	}
 	////testing
 	//alert(quest);
