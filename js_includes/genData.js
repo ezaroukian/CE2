@@ -200,6 +200,7 @@ function ibexItem(onto,CErule){
 	var ans = ["Yes","No"];	
 	var cor = 1;
 	switch(CErule.type.split("_")[0]){
+		alert(CErule.type.split("_")[0]);
 		case "11n13":
 			if (onto.type == "11" || onto.type == "31"){cor=0;}
 			break;
