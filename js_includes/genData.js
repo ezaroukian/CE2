@@ -33,19 +33,7 @@ switch(neg){
 		break;
 }
 
-var parts = [P1B1,
-P1B2,
-P2B1,
-P2B2,
-P1nB1,
-P1nB2,
-P2nB1,
-P2nB2,
-P2iP1,
-B2iB1,
-P2nP1,
-B2nB1
-];
+var parts = [P1B1,P1B2,P2B1,P2B2,P1nB1,P1nB2,P2nB1,P2nB2,P2iP1,B2iB1,P2nP1,B2nB1];
 
 function buildCE(form, order, multi){
 	var conj1 = "error1";
