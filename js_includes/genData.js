@@ -186,7 +186,7 @@ var CErulesList = [
 var tempLink = "http://tinyurl.com/ohleh6j";
 //ontographs
 var ontoList = [
-{type: "11", link: "https://drive.google.com/file/d/0B9cxdDwEP6coMFRHU3F2NDEtNDQ/view?usp=sharing"},
+{type: "11", link: "http://s11.postimg.org/p11hkh59b/image.png"},
 {type: "13", link: "https://drive.google.com/file/d/0B9cxdDwEP6coOVdjRkZxR3RHZ1k/view?usp=sharing"},
 {type: "31", link: "https://drive.google.com/file/d/0B9cxdDwEP6coWEZzai01RldhclE/view?usp=sharing"},
 {type: "33", link: "https://drive.google.com/file/d/0B9cxdDwEP6cobHJ3M0pJUFhJckk/view?usp=sharing"}
