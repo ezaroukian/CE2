@@ -186,16 +186,16 @@ var CErulesList = [
 var tempLink = "http://tinyurl.com/ohleh6j";
 //ontographs
 var ontoList = [
-{type: "11", link: "http://s11.postimg.org/p11hkh59b/image.png"},
-{type: "13", link: "http://s11.postimg.org/yvsmqp97j/image.png"},
-{type: "31", link: "http://s11.postimg.org/f2gixzvtr/image.png"},
-{type: "33", link: "http://s11.postimg.org/rjn6l5qzj/image.png"}
+{type: "11", link: "http://s11.postimg.org/lu6y0uktf/image.png"},
+{type: "13", link: "http://s11.postimg.org/m4egk6zfn/image.png"},
+{type: "31", link: "http://s11.postimg.org/c8ddkjtnn/image.png"},
+{type: "33", link: "http://s11.postimg.org/b8n2ouehv/image.png"}
 ];
 
 //Turn them into items for IBEX
 function ibexItem(onto,CErule){
 	var type = onto.type+"-"+CErule.type;//
-	var image = "<img src='"+onto.link+" width='960' height='720' >";//html containing ontograph link on google drive? test with http://tinyurl.com/ohleh6j
+	var image = "<img src='"+onto.link+" width='480' height='360' >";//html containing ontograph link on google drive? test with http://tinyurl.com/ohleh6j
 	var quest = image+"<br>"+CErule.rule;
 	var ans = ["Yes","No"];	
 	////testing
