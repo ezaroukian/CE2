@@ -199,12 +199,12 @@ function ibexItem(onto,CErule){
 	var quest = image+"<br>"+CErule.rule;
 	var ans = ["Yes","No"];	
 	var cor = 1;
-	alert(CErule.type.split("_")[0]);
-	/*switch(CErule.type.split("_")[0]){
+	//alert(CErule.type.split("_")[0]);
+	switch(CErule.type.split("_")[0]){
 		case "11n13":
 			if (onto.type == "11" || onto.type == "31"){cor=0;}
 			break;
-		case "13n11":
+		/*case "13n11":
 			if (onto.type == "13" || onto.type == "33"){cor=0;}
 			break;
 		case "31n11":
@@ -224,8 +224,8 @@ function ibexItem(onto,CErule){
 			break;
 		case "3xn1x":
 			if (onto.type == "11" || onto.type == "31" || onto.type == "33"){cor=0;}
-			break;
-	}*/
+			break;*/
+	}
 	////testing
 	//alert(quest);
 	return [ [type, "Question", {"q": quest, "as": ans, "hasCorrect": cor } ] ];
