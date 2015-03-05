@@ -45,9 +45,7 @@ var defaults = [
   }
 ];
 
-var items = [
-  ["Message", {html: "intro.html"}]
-  ];
+var items = [];
 items = items.concat(wrapper());
 
 //alert(items);
