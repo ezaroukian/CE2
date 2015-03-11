@@ -44,7 +44,7 @@ var defaults = [
 ];
 
 var items = [
-  ["sep", "Separator", {transfer: "keypress", normalMessage: "Press any key to continue.", errorMessage: "Press any key to continue." }],
+  ["sep", "Separator", {transfer: "keypress", normalMessage: "Press any key to continue.", ignoreFailure: true }],
   ];
 items = items.concat(wrapper());
 
