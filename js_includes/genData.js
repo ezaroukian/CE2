@@ -194,10 +194,10 @@ var CErulesList = [
 var tempLink = "http://tinyurl.com/ohleh6j";
 //ontographs
 var ontoList = [
-{type: "11", link: "http://s11.postimg.org/lu6y0uktf/image.png"},
-{type: "13", link: "http://s11.postimg.org/m4egk6zfn/image.png"},
-{type: "31", link: "http://s11.postimg.org/c8ddkjtnn/image.png"},
-{type: "33", link: "http://s11.postimg.org/b8n2ouehv/image.png"}
+{type: "11", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/11_zpsatl1xhmu.png"},
+{type: "13", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/13_zpslqb6lf25.png"},
+{type: "31", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/31_zpss87hqnkb.png"},
+{type: "33", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/33_zpsy18d3v6x.png"}
 ];
 
 //Turn them into items for IBEX
