@@ -203,7 +203,7 @@ var ontoList = [
 //Turn them into items for IBEX
 function ibexItem(onto,CErule){
 	var type = onto.type+"-"+CErule.type;//
-	var image = '<img src="http://i1341.photobucket.com/albums/o753/ezaroukian/33_zpsy18d3v6x.png"/>';//"<img src='"+onto.link+" width='480' height='360' >";//html containing ontograph link on google drive? test with http://tinyurl.com/ohleh6j
+	var image = "<img src='"+onto.link+" width='480' height='360' />";//html containing ontograph link on google drive? test with http://tinyurl.com/ohleh6j
 	var quest = image+"<br>"+CErule.rule+"<br><br><br>Is the diagram consistent with the rule?";
 	var ans = ["Yes","No"];	
 	var cor = 1;
