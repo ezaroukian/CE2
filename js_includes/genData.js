@@ -199,7 +199,7 @@ var ontoList = [
 {type: "31", link: "http://i1341.photobucket.com/user/ezaroukian/media/31_zpss87hqnkb.png"},
 {type: "33", link: "http://i1341.photobucket.com/user/ezaroukian/media/33_zpsy18d3v6x.png"}
 ];
-<a href="http://s1341.photobucket.com/user/ezaroukian/media/33_zpsy18d3v6x.png.html" 
+
 //Turn them into items for IBEX
 function ibexItem(onto,CErule){
 	var type = onto.type+"-"+CErule.type;//
